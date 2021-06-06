@@ -128,7 +128,7 @@ section article ul li p:last-child {
   color: #a25ad7;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1080px) {
   section {
     display: flex;
     flex-direction: row-reverse;
@@ -150,8 +150,12 @@ section article ul li p:last-child {
   section article h1, section article p, section article ul {
     width: 75%;
   }
+  section article h1 {
+    font-size: 2.3em;
+    line-height: 45px;
+  }
   section article ul {
-    margin-top: 70px;
+    margin-top: 55px;
     display: flex;
     justify-content: space-between;
   }

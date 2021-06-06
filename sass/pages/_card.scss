@@ -70,7 +70,7 @@ section{
     }
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1080px){
     section{
         display: flex;
         flex-direction: row-reverse;
@@ -92,8 +92,12 @@ section{
             h1, p, ul{
                 width: 75%;
             }
+            h1{
+                font-size: 2.3em;
+                line-height: 45px;
+            }
             ul{
-                margin-top: 70px;
+                margin-top: 55px;
                 display: flex;
                 justify-content: space-between;
             }
